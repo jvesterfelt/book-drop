@@ -18,34 +18,3 @@ export const GET_ME = gql`
     }
 }
 `;
-
-export const QUERY_ME_BASIC = gql`
-{
-    me {
-        _id
-        username
-        email
-        bookCount
-        savedBooks {
-            title
-            description
-        }
-    }
-}
-`;
-
-export const QUERY_USER = gql`
-query user($username: String!) {
-    user(username: $username) {
-        _id
-        username
-        email
-        bookCount
-        savedBooks {
-            bookId
-            title
-            description
-        }
-    }
-}
-`;
