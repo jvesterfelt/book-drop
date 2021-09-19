@@ -23,6 +23,9 @@ Download source files, install dependencies, start the app with "npm run develop
 This app is solely for educational purposes.
 
 #### Usage Screenshots:
+![image](https://user-images.githubusercontent.com/81572838/133911992-f7d93743-586a-4216-bfc0-64cd486461e0.png)
+
+![image](https://user-images.githubusercontent.com/81572838/133912002-ee32e984-3ac8-4c36-9c8c-628b41427525.png)
 
 ## License
 
