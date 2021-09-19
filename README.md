@@ -22,6 +22,9 @@ Download source files, install dependencies, start the app with "npm run develop
 
 This app is solely for educational purposes.
 
+## Deployed URL
+https://nameless-waters-43604.herokuapp.com/
+
 #### Usage Screenshots:
 ![image](https://user-images.githubusercontent.com/81572838/133911992-f7d93743-586a-4216-bfc0-64cd486461e0.png)
 
