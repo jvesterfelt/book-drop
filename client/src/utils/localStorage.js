@@ -26,6 +26,12 @@ export const removeBookId = (bookId) => {
   const updatedSavedBookIds = savedBookIds?.filter((savedBookId) => savedBookId !== bookId);
   localStorage.setItem('saved_books', JSON.stringify(updatedSavedBookIds));
 
-  document.location.reload();
+  if (savedBookIds.length > 1) {
+    console.log('savedBookIds', savedBookIds);
+    document.location.reload();
+  } else {
+    window.location.replace("/");
+  }
+
   return true;
 };
